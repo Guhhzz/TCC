@@ -11,3 +11,4 @@ Route::post('/events', [EventController::class, 'store']);
 Route::get('/contato', function () {
     return view('contato');
 });
+
