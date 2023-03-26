@@ -28,6 +28,7 @@ class EventController extends Controller
         $event->city = $request->city;
         $event->private = $request->private;
         $event->description = $request->description;
+        $event->items = $request->items;
 
         if($request->hasfile('image') && $request->file('image')->isValid()) {
 
@@ -35,7 +36,7 @@ class EventController extends Controller
 
             $extension = $requestImage->extension();
 
-            $imageName = md5($requestImage->getClientOriginalName() . strtotim("now")) . "." . $extension;
+            $imageName = md5($requestImage->getClientOriginalName() . strtotime("now")) . "." . $extension;
 
             $requestImage->move(public_path('img/events'), $imageName);
 

@@ -154,11 +154,6 @@ header {
     border-radius: 10px;
 }
 
-#info-container {
-    font-size: 36px;
-    font-weight: 900;
-}
-
 #info-container p {
     margin: 0;
     font-size: 14px;
@@ -180,6 +175,16 @@ header {
 #info-container #event-submit {
     margin: 20px 0;
 }
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
+
 
 footer {
     text-align: center;
