@@ -1,4 +1,4 @@
-# ![Alt text](image-1.png) PROJETO TCC ![Alt text](image.png)
+# PROJETO TCC 💻
 
 
 # __LINGUAGENS UTILIZADAS__
